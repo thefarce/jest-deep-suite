@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A test suite utility for Jest",
   "main": "src/index.js",
-  "homepage": "https://github.com/thefarce/jest-deep-suite",
+  "homepage": "https://thefarce.github.io/jest-deep-suite/",
   "author": "Sir Robert Burbridge",
   "scripts": {
     "setup": "npm run --prefix pub install && npm run install",
