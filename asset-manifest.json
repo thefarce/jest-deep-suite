@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/static/js/main.66263326.chunk.js",
-    "main.js.map": "/static/js/main.66263326.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c353c00b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c353c00b.js.map",
-    "static/css/2.72d22ee7.chunk.css": "/static/css/2.72d22ee7.chunk.css",
-    "static/js/2.1bafa334.chunk.js": "/static/js/2.1bafa334.chunk.js",
-    "static/js/2.1bafa334.chunk.js.map": "/static/js/2.1bafa334.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.699f31669426e3407f50f1df5d80ae78.js": "/precache-manifest.699f31669426e3407f50f1df5d80ae78.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.72d22ee7.chunk.css.map": "/static/css/2.72d22ee7.chunk.css.map",
-    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.1bafa334.chunk.js.LICENSE.txt": "/static/js/2.1bafa334.chunk.js.LICENSE.txt",
-    "static/media/thefarce-net-code.png": "/static/media/thefarce-net-code.ee933830.png"
+    "main.css": "/jest-deep-suite/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/jest-deep-suite/static/js/main.03f5738c.chunk.js",
+    "main.js.map": "/jest-deep-suite/static/js/main.03f5738c.chunk.js.map",
+    "runtime-main.js": "/jest-deep-suite/static/js/runtime-main.4f3903fa.js",
+    "runtime-main.js.map": "/jest-deep-suite/static/js/runtime-main.4f3903fa.js.map",
+    "static/css/2.72d22ee7.chunk.css": "/jest-deep-suite/static/css/2.72d22ee7.chunk.css",
+    "static/js/2.1bafa334.chunk.js": "/jest-deep-suite/static/js/2.1bafa334.chunk.js",
+    "static/js/2.1bafa334.chunk.js.map": "/jest-deep-suite/static/js/2.1bafa334.chunk.js.map",
+    "index.html": "/jest-deep-suite/index.html",
+    "precache-manifest.f6d2712b09e991b2d3e6001019aef1ca.js": "/jest-deep-suite/precache-manifest.f6d2712b09e991b2d3e6001019aef1ca.js",
+    "service-worker.js": "/jest-deep-suite/service-worker.js",
+    "static/css/2.72d22ee7.chunk.css.map": "/jest-deep-suite/static/css/2.72d22ee7.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/jest-deep-suite/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.1bafa334.chunk.js.LICENSE.txt": "/jest-deep-suite/static/js/2.1bafa334.chunk.js.LICENSE.txt",
+    "static/media/thefarce-net-code.png": "/jest-deep-suite/static/media/thefarce-net-code.ee933830.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c353c00b.js",
+    "static/js/runtime-main.4f3903fa.js",
     "static/css/2.72d22ee7.chunk.css",
     "static/js/2.1bafa334.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.66263326.chunk.js"
+    "static/js/main.03f5738c.chunk.js"
   ]
 }
