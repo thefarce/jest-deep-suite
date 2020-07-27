@@ -23,7 +23,7 @@
  *   });
  * });
  */
-export default function suite (nodes, inner) {
+export default function suite(nodes, inner) {
   if (nodes.length === 1) {
     describe(nodes.shift(), inner);
   } else if (nodes.length > 1) {
