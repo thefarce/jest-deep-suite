@@ -1,7 +1,8 @@
 {
   "name": "@thefarce/jest-deep-suite",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A test suite utility for Jest",
+  "type":"module",
   "main": "src/index.js",
   "homepage": "https://thefarce.github.io/jest-deep-suite/",
   "author": "Sir Robert Burbridge",
