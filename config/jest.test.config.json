@@ -1,0 +1,21 @@
+{
+  "rootDir": "../",
+  "collectCoverageFrom": [
+    "./src/**/*.js"
+  ],
+  "coverageReporters": [
+    "json",
+    "json-summary",
+    "lcov",
+    "text",
+    "clover"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "branches": 100,
+      "functions": 100,
+      "lines": 100,
+      "statements": 100
+    }
+  }
+}
