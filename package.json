@@ -1,13 +1,14 @@
 {
   "name": "@thefarce/jest-deep-suite",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "A test suite utility for Jest",
-  "type":"module",
+  "type": "module",
   "main": "src/index.js",
+  "module": "src/index.js",
   "homepage": "https://thefarce.github.io/jest-deep-suite/",
   "author": "Sir Robert Burbridge",
   "scripts": {
-    "build": "babel src -d dist",
+    "build": "babel src -d dist --config-file ./config/babel.config.cjs",
     "clean": "rimraf ./reports",
     "docs:build": "npm run docs:build:jsdoc && npm run docs:build:site",
     "docs:build:jsdoc": "npx jsdoc --package ./package.json --configure ./config/jsdoc.config.json --readme README.md --template ./node_modules/@thefarce/jsdoc-to-json/template --destination ./pub/src ./src",
@@ -24,7 +25,7 @@
     "validate": "npm run style && npm run test:coverage"
   },
   "files": [
-    "dist"
+    "src"
   ],
   "repository": {
     "type": "git",
@@ -42,8 +43,13 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
+    "@babel/plugin-transform-modules-umd": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "@thefarce/jsdoc-to-json": "^0.1.0",
+    "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-minify": "^0.5.1",
     "cross-env": "^7.0.2",
     "eslint": "^7.5.0",
     "eslint-config-airbnb-base": "^14.2.0",
