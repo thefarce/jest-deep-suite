@@ -3,6 +3,13 @@
   "collectCoverageFrom": [
     "./src/**/*.js"
   ],
+  "transform": {
+    "^.+\\.[jt]sx?$": [
+      "babel-jest", {
+        "configFile": "./config/babel.config.cjs"
+      }
+    ]
+  },
   "coverageReporters": [
     "json",
     "json-summary",
