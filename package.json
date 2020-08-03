@@ -1,6 +1,6 @@
 {
   "name": "@thefarce/jest-deep-suite",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A test suite utility for Jest",
   "main": "index.js",
   "module": "src/index.js",
@@ -24,7 +24,7 @@
     "validate": "npm run style && npm run test:coverage"
   },
   "files": [
-    "src"
+    "dist"
   ],
   "repository": {
     "type": "git",
